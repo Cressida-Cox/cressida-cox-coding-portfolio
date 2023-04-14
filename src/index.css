@@ -1,0 +1,117 @@
+.navbar {
+  background-color: #0f0f0f;
+  padding: 10px;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.navbar-toggler {
+  color: #fff;
+}
+
+.welcome {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("../images/13_aswasdas1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 200px 0;
+  margin-top: 60px;
+}
+
+.welcome .text {
+  margin: 50px 30px 30px 270px;
+}
+
+.welcome .text h1 {
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.welcome .text h3 {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 200;
+}
+
+footer {
+  background: #0f0f0f;
+  color: #fff;
+  padding: 30px;
+  font-size: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer .social-links i {
+  padding: 5px;
+}
+
+@media (max-width: 730px) {
+  .welcome {
+    padding: 100px 0;
+  }
+
+  .welcome .text {
+    margin: 30px 30px 30px 240px;
+  }
+
+  .welcome .text h1 {
+    font-size: 35px;
+  }
+
+  .welcome .text h3 {
+    font-size: 20px;
+  }
+
+  footer {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 498px) {
+  .navbar {
+    padding: 6px;
+  }
+
+  .navbar-brand {
+    font-size: 15px;
+  }
+
+  .navbar-toggler {
+    font-size: 12px;
+  }
+
+  .welcome {
+    padding: 50px 0;
+    margin-top: 44px;
+  }
+
+  .welcome .text {
+    margin: 30px 30px 30px 180px;
+  }
+
+  .welcome .text h1 {
+    font-size: 20px;
+  }
+
+  .welcome .text h3 {
+    font-size: 10px;
+  }
+
+  footer {
+    padding: 12px;
+  }
+}
