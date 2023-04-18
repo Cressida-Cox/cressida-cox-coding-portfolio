@@ -110,4 +110,16 @@ body {
   .portfolio-container h2 {
     padding: 70px 0px 15px 0px;
   }
+
+  .visit-website-container h3 {
+    font-size: 10px;
+  }
+
+  .visit-website-container .text {
+    font-size: 5px;
+  }
+
+  .visit-website-container p {
+    margin-bottom: 7px;
+  }
 }
