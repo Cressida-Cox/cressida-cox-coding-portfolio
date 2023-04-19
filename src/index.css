@@ -43,6 +43,19 @@
   font-weight: 200;
 }
 
+.welcome .hidden-section {
+  font-size: 15px;
+}
+
+.hidden-section a {
+  text-decoration: none;
+  color: white;
+}
+
+.hidden-section a:hover {
+  font-size: larger;
+}
+
 footer {
   background: #0f0f0f;
   color: #fff;
@@ -59,45 +72,58 @@ footer .social-links i {
   padding: 5px;
 }
 
-@media (max-width: 730px) {
-  body {
-    background: #0f0f0f;
-  }
-
+@media (max-width: 821px) {
   .welcome {
-    transform: rotate(90deg);
-    padding: 295px 0px;
-    margin: 0px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+      url("../images/mobile-viewing.png");
+    padding: 435px 0px;
+    margin-top: 0px;
   }
 
   .welcome .text {
-    transform: rotate(270deg);
-    margin: 30px 30px 30px 180px;
+    margin: 75px;
   }
 
   .welcome .text h1 {
-    font-size: 35px;
+    font-size: 50px;
   }
 
   .welcome .text h3 {
-    font-size: 20px;
+    font-size: 25px;
+  }
+
+  .hidden-section {
+    color: black;
   }
 
   footer {
     margin-top: 0px;
-    padding: 20px;
+    padding: 25px;
+    background: black;
+  }
+}
+
+@media (max-width: 769px) {
+  .welcome {
+    margin-top: -40px;
+  }
+
+  .welcome .text {
+    margin: 50px;
+  }
+
+  footer {
+    margin-top: -70px;
   }
 }
 
 @media (max-width: 541px) {
-  .welcome {
-    transform: rotate(90deg);
-    padding: 203px 0px;
-    margin: 0px;
+  .welcome .text {
+    margin: -35px 0px 0px 0px;
   }
 
-  footer {
-    margin-top: 125px;
+  .hidden-section {
+    margin-top: 860px;
   }
 }
 
@@ -115,14 +141,12 @@ footer .social-links i {
   }
 
   .welcome {
-    transform: rotate(90deg);
-    padding: 154px 0px;
-    margin: 0px;
+    margin-top: 0px;
+    padding: 165px 0px;
   }
 
   .welcome .text {
-    transform: rotate(270deg);
-    margin: 30px 30px 30px 180px;
+    margin: 100px;
   }
 
   .welcome .text h1 {
@@ -133,24 +157,38 @@ footer .social-links i {
     font-size: 10px;
   }
 
-  footer {
-    margin-top: 340px;
-    padding: 12px;
+  .hidden-section {
+    margin-top: 525px;
+  }
+}
+
+@media (max-width: 400px) {
+  .welcome .text {
+    margin: 75px;
+  }
+
+  .hidden-section {
+    margin-top: 500px;
+  }
+}
+
+@media (max-width: 361px) {
+  .welcome .text {
+    margin-top: 62px;
+  }
+
+  .hidden-section {
+    margin-top: 480px;
   }
 }
 
 @media (max-width: 281px) {
-  .welcome {
-    transform: rotate(90deg);
-    padding: 82px 0px;
-    margin: 0px;
-  }
-
   .welcome .text {
-    margin: 20px 30px 30px 130px;
+    margin: 10px;
   }
 
-  footer {
-    margin-top: 330px;
+  .hidden-section {
+    margin-top: 380px;
+    font-size: 10px;
   }
 }
